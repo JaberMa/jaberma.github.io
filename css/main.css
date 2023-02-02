@@ -1068,8 +1068,12 @@ textarea.form-control, textarea.form-control:focus {
 
 /* --- Clients --- */
 .clients.owl-carousel .client-block {
-  padding: 15px;
+  padding: 10px;
   margin-bottom: 15px;
+}
+
+.custom {
+  border-radius: 5%;
 }
 
 .client-block {

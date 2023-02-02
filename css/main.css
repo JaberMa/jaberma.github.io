@@ -1201,6 +1201,29 @@ textarea.form-control, textarea.form-control:focus {
   font-size: 0.92em;
 }
 
+.timeline-second-style .right-part-custom p,
+.timeline-second-style .right-part-custom p > * {
+  width: 430px;
+}
+
+@media screen and (max-width: 578px) {
+
+  .timeline-second-style .right-part-custom p,
+  .timeline-second-style .right-part-custom p>* {
+    width: 280px;
+  }
+  
+}
+
+@media screen and (max-width: 372px) {
+
+  .timeline-second-style .right-part-custom p,
+  .timeline-second-style .right-part-custom p>* {
+    width: 180px;
+  }
+  
+}
+
 .timeline-second-style .divider {
   position: absolute;
   top: 0;

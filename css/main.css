@@ -1925,6 +1925,7 @@ textarea.form-control, textarea.form-control:focus {
 
 .portfolio-block {
   padding-top: 30px;
+  max-height: 500px;
 }
 
 .ajax-page-page-content img {
@@ -3037,5 +3038,13 @@ blockquote {
   .title-block .sp-subtitle {
     font-size: 18px;
   }
+}
+
+.portfolio-page-carousel
+.item img {
+  width: 50%;
+  height: auto;
+  margin: auto auto 60px auto;
+
 }
 
